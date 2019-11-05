@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 1rem;
+}
+
+.main {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  background-color: #f5f6f9;
+}
+
+.grid-container {
+  box-shadow: 0px 12px 19px 1px rgba(152, 165, 189, 0.3);
+}
+
+.grid-component {
+  max-width: 400px;
+  width: 310px;
+  padding: 1.8rem 1.5rem;
+  background-color: white;
+  border-radius: 0.4em 0.4em 0 0;
+}
+.grid-component .grid-component__title {
+  letter-spacing: 0.01em;
+  color: #3bd2cf;
+  font-size: 1.3em;
+  font-weight: 700;
+  margin-bottom: 1.2em;
+}
+.grid-component .grid-component__secondary-title {
+  letter-spacing: 0.01em;
+  color: #cde660;
+  font-size: 0.95em;
+  font-weight: 700;
+  margin-bottom: 1.2em;
+}
+.grid-component .grid-component__par {
+  letter-spacing: 0.01em;
+  color: #98a5bd;
+  font-size: 0.8em;
+  font-weight: 0;
+  line-height: 1.8;
+}
+
+.grid-component-sub {
+  max-width: 400px;
+  width: 310px;
+  padding: 1.8rem 1.5rem;
+  background-color: #29b1af;
+  color: #f2f2f2;
+}
+.grid-component-sub .grid-component-sub__title {
+  font-size: 1.2em;
+  margin-bottom: 1.2em;
+}
+.grid-component-sub .grid-component-sub__price_highlight {
+  display: flex;
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 0.3em;
+}
+.grid-component-sub .grid-component-sub__price_highlight .grid-component-sub__price {
+  letter-spacing: 0.01em;
+  color: #b8eeee;
+  font-size: 0.5em;
+  font-weight: 400;
+  align-self: center;
+  margin-left: 1em;
+}
+
+.grid-component-why {
+  max-width: 400px;
+  width: 310px;
+  padding: 1.8rem 1.5rem;
+  background-color: #2ec6c3;
+  color: #f2f2f2;
+  border-radius: 0 0 0.4em 0.4em;
+}
+.grid-component-why .grid-component-why__title {
+  font-size: 1.2em;
+  margin-bottom: 1.2em;
+}
+.grid-component-why .grid-component-why__list {
+  list-style: none;
+}
+.grid-component-why .grid-component-why__list .grid-component-why__list-item {
+  letter-spacing: 0.01em;
+  color: #e5eef4;
+  font-size: 0.8em;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin: 1em;
+}
+.attribution a {
+  color: #29b1af;
+}
+
+.grid-component-sub__btn {
+  letter-spacing: 0.01em;
+  color: white;
+  font-size: 1em;
+  font-weight: 700;
+  font-family: inherit;
+  background-color: #cde660;
+  border: none;
+  border-radius: 0.4em;
+  width: 100%;
+  margin-top: 1.7em;
+  padding: 0.9em;
+  box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+/*# sourceMappingURL=style.css.map */
