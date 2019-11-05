@@ -1,8 +1,11 @@
 @mixin card-style($color) {
-  max-width: 400px;
   width: 310px;
-  padding: 1.8rem 1.5rem;
+  padding: 2em 1.4em;
   background-color: $color;
+  @media (min-width: 1000px) {
+    width: 317px;
+    padding: 2.5em 2.8em;
+  }
 }
 
 @mixin text-style($color, $size, $weight: 700) {
